@@ -1,0 +1,126 @@
+# ------------------- 操作系统文件 -------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------- 各种编辑器/IDE -------------------
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio / Rider
+.idea/
+.vs/
+x64/
+CPP就业班/
+*.vsidx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.vcproj.user
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ------------------- 编译生成文件 -------------------
+# C/C++
+*.exe
+*.out
+*.obj
+*.o
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.manifest
+/build/
+/bin/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+ENV/
+
+# Node.js
+node_modules/
+npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+/dist
+/.nuxt
+/.output
+
+# Go
+*.exe~
+*.test
+*.prof
+
+# Rust
+/target/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# ------------------- 敏感信息 -------------------
+.env
+.env.local
+.env.*.local
+config/*.json        # 根据实际情况改
+*.pem
+*.key
+
+# ------------------- 其他常用 -------------------
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+.cache/
